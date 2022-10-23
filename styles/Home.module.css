@@ -1,9 +1,3 @@
-.container {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .main {
   width: 100%;
   min-height: 100vh;
@@ -12,4 +6,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.bgWide {
+  display: block;
+}
+
+.bgMovil {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bgWide {
+    display: none;
+  }
+
+  .bgMovil {
+    display: block;
+  }
 }

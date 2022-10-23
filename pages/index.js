@@ -12,11 +12,23 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          src="https://res.cloudinary.com/afximagesection/image/upload/v1666549775/Koru_web_design_kv7v5j.jpg"
-          width={1920}
-          height={2203}
-        />
+        <div className={styles.bgWide}>
+          <Image
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1666549775/Koru_web_design_kv7v5j.jpg"
+            alt="advertisemente widescreen"
+            width={1920}
+            height={2203}
+          />
+        </div>
+
+        <div className={styles.bgMovil}>
+          <Image
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1666551400/Koru_web_design_movil_Mesa_de_trabajo_1_copia_yowchl.jpg"
+            alt="advertisemente movil"
+            width={1081}
+            height={2330}
+          />
+        </div>
       </main>
     </div>
   );
