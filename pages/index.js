@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,7 +12,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>KORÚ FEST</h1>
+        <Image
+          src="https://res.cloudinary.com/afximagesection/image/upload/v1666549775/Koru_web_design_kv7v5j.jpg"
+          width={1920}
+          height={2203}
+        />
       </main>
     </div>
   );
