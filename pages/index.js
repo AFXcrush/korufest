@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.bgWide}>
           <Image
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1666549775/Koru_web_design_kv7v5j.jpg"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1668123815/Kor%C3%BA_Fest_-_Afiche_web_wulel6.png"
             alt="advertisemente widescreen"
             width={1920}
             height={2203}
@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.bgMovil}>
           <Image
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1666551400/Koru_web_design_movil_Mesa_de_trabajo_1_copia_yowchl.jpg"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1668123815/Kor%C3%BA_Fest_-_Afiche_m%C3%B3vil_u5w1ik.png"
             alt="advertisemente movil"
             width={1081}
             height={2330}
